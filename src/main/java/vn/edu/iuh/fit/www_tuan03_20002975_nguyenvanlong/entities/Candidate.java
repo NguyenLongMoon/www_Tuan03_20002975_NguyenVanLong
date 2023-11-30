@@ -1,4 +1,4 @@
-package fit.iuh.edu.vn.lab03week03.entities;
+package vn.edu.iuh.fit.www_tuan03_20002975_nguyenvanlong.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
