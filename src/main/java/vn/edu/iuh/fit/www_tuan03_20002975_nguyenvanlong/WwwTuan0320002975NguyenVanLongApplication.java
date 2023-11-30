@@ -24,3 +24,16 @@ public class WwwTuan0320002975NguyenVanLongApplication {
 //			}
 //		};
 //	}
+//	@Bean
+//	public CommandLineRunner example02(){
+//		return new CommandLineRunner() {
+//			@Override
+//			public void run(String... args) throws Exception {
+//				Candidate candidate = new Candidate("cuong3", "01234567", "TP HCM", "Cuong@gmail.com");
+//				if(classDao.update(candidate,3L)){
+//					System.out.println("updateOK");
+//				}
+//
+//			}
+//		};
+//	}
