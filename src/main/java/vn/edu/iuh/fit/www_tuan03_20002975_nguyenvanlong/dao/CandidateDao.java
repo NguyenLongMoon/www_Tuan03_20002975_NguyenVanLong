@@ -1,7 +1,9 @@
-package fit.iuh.edu.vn.lab03week03.dao;
+package vn.edu.iuh.fit.www_tuan03_20002975_nguyenvanlong.dao;
 
-import fit.iuh.edu.vn.lab03week03.Mapper.CandidateMapper;
-import fit.iuh.edu.vn.lab03week03.entities.Candidate;
+
+import vn.edu.iuh.fit.www_tuan03_20002975_nguyenvanlong.Mapper.CandidateMapper;
+
+import vn.edu.iuh.fit.www_tuan03_20002975_nguyenvanlong.entities.Candidate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
@@ -11,7 +13,7 @@ import javax.sql.DataSource;
 import java.util.List;
 
 @Component
-public class CandidateDao implements ClassDao<Candidate,Long>{
+public class CandidateDao implements fit.iuh.edu.vn.lab03week03.dao.ClassDao<Candidate,Long> {
     private DataSource dataSource;
     private JdbcTemplate jdbcTemplate;
 

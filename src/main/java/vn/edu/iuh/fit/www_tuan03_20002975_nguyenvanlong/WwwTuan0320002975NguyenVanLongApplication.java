@@ -11,3 +11,16 @@ public class WwwTuan0320002975NguyenVanLongApplication {
     }
 
 }
+//	@Bean
+//	public CommandLineRunner example01(){
+//		return new CommandLineRunner() {
+//			@Override
+//			public void run(String... args) throws Exception {
+//				Candidate candidate = new Candidate("long", "01234567", "TP HCM", "long@gmail.com");
+//				if(classDao.insert(candidate)){
+//					System.out.println("insertOk");
+//				}
+//
+//			}
+//		};
+//	}

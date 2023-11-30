@@ -1,6 +1,7 @@
-package fit.iuh.edu.vn.lab03week03.Mapper;
+package vn.edu.iuh.fit.www_tuan03_20002975_nguyenvanlong.Mapper;
 
-import fit.iuh.edu.vn.lab03week03.entities.Candidate;
+
+import vn.edu.iuh.fit.www_tuan03_20002975_nguyenvanlong.entities.Candidate;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;
